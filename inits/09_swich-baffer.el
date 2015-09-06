@@ -1,0 +1,2 @@
+;スイッチバッファー
+(iswitchb-mode t)

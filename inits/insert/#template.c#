@@ -1,0 +1,13 @@
+#include<stdio.h>
+#include<string.h>
+
+
+int main(){
+
+
+  printf("ds" ,a0,a1);
+  printf
+
+
+  return 0;
+}
