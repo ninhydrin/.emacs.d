@@ -26,4 +26,4 @@
 
 (define-key
   global-map
-  (kbd "C-#") 'hs-toggle-hiding)
+  (kbd "C-/") 'hs-toggle-hiding)
