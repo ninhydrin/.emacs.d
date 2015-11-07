@@ -1,0 +1,11 @@
+(add-to-list 'exec-path (expand-file-name "./env/go-workspace/bin"))
+(add-to-list 'load-path "$GOPATH/src/github.com/nsf/gocode/emacs")
+(add-to-list 'load-path "$GOPATH/src/github.com/dougm/goflymake")
+
+(add-hook 'before-save-hook 'gofmt-before-save)
+(add-hook 'go-mode-hook (lambda ()
+                          (local-set-key (kbd "M-.") 'godef-jump))) ;定義へジャンプ
+(eval-after-load "go-mode"
+  '(progn
+     (require 'go-autocomplete)))
+(require 'go-flymake)
