@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: io
+# key: io
+# group : general
+# --
+from skimage import io
+$0

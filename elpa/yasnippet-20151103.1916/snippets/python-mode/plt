@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: plt
+# key: plt
+# group : general
+# --
+import matplotlob.plt as plt
+$0
