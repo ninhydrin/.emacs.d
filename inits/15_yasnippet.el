@@ -7,7 +7,7 @@
 
 (yas-global-mode 1)
 
-(require 'cl)
+;(require 'cl)
 
 
 (setq yas-snippet-dirs

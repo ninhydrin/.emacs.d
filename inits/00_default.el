@@ -1,6 +1,10 @@
 ;初期画面変更					;
 (setq inhibit-startup-message t)
 
+;(let ((envs '("PATH" "VIRTUAL_ENV" "GOROOT" "GOPATH")))
+;  (exec-path-from-shell-copy-envs envs))
+
+
 ;言語を日本語にする
 (set-language-environment 'Japanese)
 
