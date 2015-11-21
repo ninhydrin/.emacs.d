@@ -1,4 +1,4 @@
-;(require 'autoinsert)
+					;(require 'autoinsert)
 (autoload 'find-file-hooks "auto-insert")
 (add-hook 'find-file-hooks 'auto-insert)
 
@@ -62,7 +62,7 @@
                  
                  )
 
-                (("\\.cpp$" . "c template")
+                (("\\.cpp$" . "cpp template")
                  nil ;; ここに"name?"とか書くと、最初にミニバッファで"name?"ってでて入力を促される。入力したものはstrという変数に入る。
                  "#include<stdio.h> \n"
 		 "#include<string.h> \n"
@@ -80,5 +80,24 @@
 		 "   return 0;\n"
 		 "}"
                  
-                 )) auto-insert-alist))
+                 ) 
+		(("\\.py$" . "python template")
+		 nil ;; ここに"name?"とか書くと、最初にミニバッファで"name?"ってでて入力を促される。入力したものはstrという変数に入る。
+		 "#!/usr/bin/env python \n"
+		 "# -*- coding: utf-8 -*- \n"
+		 "import os \n"
+		 "import sys \n"
+		 "import numpy as np \n"
+		 "import matplotlib.pyplot as plt\n"
+		 "\n"
+		 "\n"
+		 "\n"
+		 _ ;; アンダーバーを書いたところにカーソルが移動する
+		 "\n"
+		 "\n"
+                 )
+
+		auto-insert-alist))
+
+)
 
