@@ -39,6 +39,7 @@
 	       ("\\.c$"    . ["template.c"    my:template])
 	       ("\\.cpp$"  . ["template.muse" my:template])
                ) auto-insert-alist))
+
 (setq auto-insert-alist
       (append '(
                 (("\\.c$" . "c template")
@@ -59,5 +60,25 @@
 		 "   return 0;\n"
 		 "}"
                  
+                 )
+
+                (("\\.cpp$" . "c template")
+                 nil ;; ここに"name?"とか書くと、最初にミニバッファで"name?"ってでて入力を促される。入力したものはstrという変数に入る。
+                 "#include<stdio.h> \n"
+		 "#include<string.h> \n"
+		 "#include<stdlib.h> \n"
+		 "#include<math.h> \n"
+                 "\n"
+		 "\n"
+		 "\n"
+		 "int main(){"
+		 "\n"
+		 "\n"
+		 _ ;; アンダーバーを書いたところにカーソルが移動する
+		 "\n"
+		 "\n"
+		 "   return 0;\n"
+		 "}"
+                 
                  )) auto-insert-alist))
-      
+
