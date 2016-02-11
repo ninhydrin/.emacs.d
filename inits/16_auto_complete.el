@@ -7,6 +7,7 @@
 ;(require-submodule 'fuzzy "auto-complete/lib/fuzzy")
 (require 'auto-complete-config)
 (defvar ac-dictionary-directories  "~/.emacs.d/elisp/auto-complete/dict" )
+
 (ac-config-default)
 
 ;; カスタマイズ
