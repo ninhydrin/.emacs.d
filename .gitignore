@@ -1,0 +1,8 @@
+*.dat
+*~
+*.jpeg
+*.jpg
+*.elc
+image-dired/*
+tramp
+recentf
