@@ -1,4 +1,8 @@
 (require 'js2-mode)
+;; this is the path that was given from cmd 'which tern'
+(add-to-list 'load-path "~/.nodebrew/current/bin/tern")
+(autoload 'tern-mode "tern.el" nil t)
+;;(setenv "PATH" (concat "/usr/local/bin:" (getenv "PATH")))
 (add-to-list 'auto-mode-alist '("\\.js\\'" . js2-mode))
 
 (autoload 'js2-mode "js2-mode" nil t)
@@ -24,3 +28,4 @@
                     (tern-ac-setup)))
                )
              ))
+

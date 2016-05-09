@@ -19,9 +19,15 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(ansi-color-names-vector
+   ["#242424" "#e5786d" "#95e454" "#cae682" "#8ac6f2" "#333366" "#ccaa8f" "#f6f3e8"])
+ '(anzu-deactivate-region t)
+ '(anzu-mode-lighter "")
+ '(anzu-search-threshold 1000)
+ '(custom-enabled-themes (quote (molokai)))
  '(custom-safe-themes
    (quote
-    ("42c7f1aa7a3db4ab8efabf1d10c158c2f1414ac57cb207cde815eadad72170d2" default)))
+    ("211bb9b24001d066a646809727efb9c9a2665c270c753aa125bace5e899cb523" "d1507f294adc9fbfdf8ba9970f4243bef9a515437744c06ffd8be49a1c22afc1" "42c7f1aa7a3db4ab8efabf1d10c158c2f1414ac57cb207cde815eadad72170d2" "a32bf7b5e357d13ef48195fa075f4d24ac6cdd047f51c80da96391cf181a3598" default)))
  '(shell-pop-shell-type
    (quote
     ("ansi-term" "*shell-pop-ansi-term*"
