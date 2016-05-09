@@ -1,7 +1,0 @@
-<Directory "/Users/yokoshimakura/Sites/"> 
-AddHandler cgi-script .cgi
-Options Indexes MultiViews Includes ExecCGI
-AllowOverride All
-Order allow,deny
-Allow from all
-</Directory>
