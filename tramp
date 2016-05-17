@@ -1,4 +1,4 @@
-;; -*- emacs-lisp -*- <16/04/30 16:43:36 /Users/yokoshima/.emacs.d/tramp>
+;; -*- emacs-lisp -*- <16/05/17 14:45:47 /Users/yokoshima/.emacs.d/tramp>
 ;; Tramp connection history.  Don't change this file.
 ;; You can delete it, forcing Tramp to reapply the checks.
 
@@ -28,19 +28,18 @@
   ("remote-path"
    ("/bin" "/usr/bin" "/sbin" "/usr/sbin" "/usr/local/bin" "/usr/local/sbin"))
   ("remote-shell" "/bin/sh")
-  ("stat" "\\stat")
-  ("file-exists" "test -e")
   ("id" "/usr/bin/id")
   ("gid-integer" 1002)
+  ("file-exists" "test -e")
+  ("stat" "\\stat")
   ("gid-string" "yokoshima")
   ("readlink" "\\readlink")
-  ("ls" "/bin/ls --color=never")
-  ("uid-integer" 1002)
-  ("~" "/home/yokoshima")
   ("perl-file-spec" t)
   ("perl-cwd-realpath" t)
   ("perl" "\\perl")
-  ("ls-dired" t)
+  ("~" "/home/yokoshima")
+  ("ls" "/bin/ls --color=never")
+  ("uid-integer" 1002)
   ("git" "\\git"))
  (["ssh" nil "ninhydrin" nil nil]
   ("locale" "LC_ALL=en_US.utf8")
@@ -117,4 +116,24 @@
   ("readlink" nil)
   ("ls" "/bin/ls")
   ("git" "\\git")
-  ("uid-integer" 503)))
+  ("uid-integer" 503))
+ (["scp" nil "sh" nil nil]
+  nil)
+ (["sh" nil "titan" nil nil]
+  nil)
+ (["ssh" nil "yokoshima" nil nil]
+  nil)
+ (["ssh" "quadro" "yokoshima" nil nil]
+  nil)
+ (["scp" "yokoshima" "162.252.132.111" nil nil]
+  nil)
+ (["ssh" "yokoshima" "160.252.132.111" nil nil]
+  nil)
+ (["scp" "yokoshima" "160.252.132.111" nil nil]
+  nil)
+ (["ssh" nil "quadro" nil nil]
+  nil)
+ (["ssh" "yokoshima" "quadro" nil nil]
+  nil)
+ (["scp" "yokoshima" "16.252.132.111" nil nil]
+  nil))
