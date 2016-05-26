@@ -1,12 +1,12 @@
 ;カラーテーマ
-;(setq custom-theme-directory "~/.emacs.d/themes/")
+(setq custom-theme-directory "~/.emacs.d/themes/")
 (deftheme molokai
   "Molokai color theme")
 
 (custom-theme-set-faces
  'molokai
  ;; 背景・文字・カーソル
- '(cursor ((t (:foreground "#F8F8F0"))))
+ '(cursor ((t (:foreground "#F8F8F8"))))
  '(default ((t (:background "#1B1D1E" :foreground "#F8F8F2"))))
 
  ;; 選択範囲
